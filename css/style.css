@@ -139,3 +139,29 @@ footer p{
     text-align: center;
     margin-top: 15px;
 }
+
+@media screen and (min-width: 426px){
+
+}
+
+@media screen and (min-width: 769px){
+
+    .card{
+        display: flex;
+    }
+    .card img{
+        width: 30%;
+    }
+    footer .container{
+        width: 50%;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media screen and (min-width: 1201){
+
+}
